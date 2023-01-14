@@ -1,0 +1,193 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.right ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+.banner-text {
+    margin-top: 145px;
+    width: 582px;
+    height: 270px;
+
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+button {
+    padding: 10px 25px;
+    background-color: #E02C6D;
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+button i {
+    padding-left: 5px;
+
+}
+
+.photo {
+    margin-top: 80px;
+    height: 475px;
+    width: 475px;
+    background-image: url(../images/Circle\ design.svg);
+
+
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.logo-section {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 120px;
+}
+
+.logo-section img {
+    width: 80px;
+    height: 40px;
+}
+
+hr {
+    margin: 70px 120px;
+    color: #FFFBFB;
+
+}
+
+.container {
+    margin: 0 172px;
+    background-color: #FFFBFB;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.box {
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery-info h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.star {
+    color: #FDCF9F;
+}
+
+.gallery-info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #787885;
+}
+
+.gear-section {
+    display: flex;
+    gap: 100px;
+    margin: 100px 165px;
+}
+
+.gear-info h2 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.gear-info p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #787885;
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.details {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.details h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.details p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fa-brands {
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav{
+       
+        justify-content: left;
+        margin: 0px;   
+    }
+    .container{
+        text-align: center;
+    }
+    .parent {
+        
+        grid-template-columns: repeat(1, 1fr);
+justify-content: center;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .logo-section {
+
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0px;
+    }
+    .gear-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 0px;   
+       
+    }
+    .gear-info{
+      margin-left: 90px;
+    }
+
+}
